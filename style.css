@@ -1,0 +1,121 @@
+:root {
+    --colorPrimario: #375E97;
+}
+
+*{
+    background-color: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: var(--colorPrimario);
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: var(--colorPrimario);}
+.text-area:focus {outline: none;}
+
+
+.mensaje {
+    background: white;
+    background-image: url(imagenes/muneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--colorPrimario);
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: var(--colorPrimario);
+    border: 1px solid var(--colorPrimario);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid var(--colorPrimario);
+    border-radius: 24px;
+    color: var(--colorPrimario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid var(--colorPrimario);
+    border-radius: 24px;
+    color: var(--colorPrimario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 475px;
+    position: absolute;
+    width: 336px;
+}
+
+.btn-encriptar:hover {
+    transform: scale(1.10);
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.10);
+}
+
+.btn-copiar:hover {
+    transform: scale(1.10);
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.derechos {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: var(--colorPrimario);
+    padding: 5px;
+    text-align: left;
+    width: 50%;
+}
+
+.derechos img {
+    padding-left: 50px;
+    float: left;
+    width: 15%;
+}
+
