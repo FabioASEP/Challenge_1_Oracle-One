@@ -1,6 +1,8 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 
+ /* Ultima actualización 02-Feb-2023 */
+
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value);
     mensaje.value = textoEncriptado 
